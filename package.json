@@ -35,7 +35,9 @@
     "integration-tests": "concurrently --success \"first\" --kill-others \"ava ./test/integration\" \"yarn test-server\"",
     "update-test-snapshots": "concurrently --success \"first\" --kill-others \"ava -u\" \"yarn test-server\"",
     "storybook": "start-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "esm": {
     "mode": "auto",
@@ -104,7 +106,8 @@
     "url-toolkit": "^2.1.6",
     "use-debounce": "^3.4.0",
     "use-http": "^0.2.4",
-    "uuid": "^3.3.3"
+    "uuid": "^3.3.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
@@ -161,5 +164,6 @@
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0",
     "worker-loader": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
