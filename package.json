@@ -64,7 +64,7 @@
     "commitMessage": "Deploy Storybook [skip ci]"
   },
   "dependencies": {
-    "@babel/runtime": "^7.6.0",
+    "@babel/runtime": "^7.18.3",
     "@mozillareality/easing-functions": "^0.1.1",
     "@mozillareality/three-batch-manager": "^0.1.10",
     "@mozillareality/three-particle-emitter": "^0.2.2",
