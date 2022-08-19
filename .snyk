@@ -1,0 +1,220 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - puppeteer-core > https-proxy-agent:
+        patched: '2022-08-19T05:35:00.557Z'
+  SNYK-JS-LODASH-567746:
+    - '@storybook/react > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - ava > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - babel-plugin-styled-components > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - concurrently > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - eslint > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - html-webpack-plugin > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-knobs > @storybook/client-api > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint-processor-styled-components > @babel/traverse > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-knobs > react-color > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - eslint > table > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > table > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-knobs > @storybook/api > telejson > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > inquirer > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > react-dev-utils > inquirer > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/core > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - standardized-audio-context-mock > sinon > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/mdx > remark-mdx > @babel/core > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > telejson > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > react-dev-utils > inquirer > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > async > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - standardized-audio-context-mock > sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - standardized-audio-context-mock > standardized-audio-context > grunt-modernizr > customizr > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/mdx > remark-mdx > @babel/core > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > react-color > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/storybook-deployer > git-url-parse > parse-domain > mocha > yargs-unparser > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - standardized-audio-context-mock > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - standardized-audio-context-mock > standardized-audio-context > grunt-modernizr > customizr > modernizr > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/addons > @storybook/api > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-storysource > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-knobs > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/api > telejson > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > @storybook/addons > @storybook/api > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/mdx > remark-mdx > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-knobs > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > @storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addon-knobs > @storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-08-19T05:35:00.557Z'
+  SNYK-JS-TREEKILL-536781:
+    - concurrently > tree-kill:
+        patched: '2022-08-19T05:35:00.557Z'
